@@ -14,24 +14,24 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [Buscar.newInstance] factory method to
+ * Use the [Bliblioteca.newInstance] factory method to
  * create an instance of this fragment.
  */
-class Buscar : Fragment() {
+class Biblioteca : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_buscar, container, false)
+        return inflater.inflate(R.layout.fragment_biblioteca, container, false)
     }
 
     companion object {
-        fun newInstance(): Buscar {
-            val fragmentBuscar = Buscar()
+        fun newInstance(): Biblioteca {
+            val fragmentBiblioteca = Biblioteca()
             val argumentos = Bundle()
-            fragmentBuscar.arguments = argumentos
-            return fragmentBuscar
+            fragmentBiblioteca.arguments = argumentos
+            return fragmentBiblioteca
         }
     }
 }

@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:background="@color/cinzaEscuro"
         app:itemIconTint="@color/white"
+        android:layout_gravity="bottom"
         app:itemTextAppearanceActive="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
         app:itemTextColor="@color/white"
         app:menu="@menu/bottom_menu" />
